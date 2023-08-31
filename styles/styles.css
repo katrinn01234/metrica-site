@@ -7,16 +7,11 @@ p {
   letter-spacing: -0.03em;
 }
 
-h1,
-h2,
-h3 {
-  color: #121212;
-}
-
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   width: 100%;
+  color: #121212;
 }
 
 section {
@@ -75,12 +70,13 @@ h3 {
   height: 366px;
   font-size: 45px;
   line-height: 61px;
-  color: #121212;
 }
 
 .btn {
   display: inline-block;
   padding: 20px 40px;
+  font-size: 20px;
+  line-height: 27.32px;
   text-decoration: none;
   color: #ffffff;
   background-color: #ad1818;
@@ -130,11 +126,6 @@ h3 {
   background-color: black;
 }
 
-.section-black h2,
-h3 {
-  color: white;
-}
-
 .service {
   margin-top: 60px;
 }
@@ -145,4 +136,9 @@ h3 {
 
 .service__image {
   margin-bottom: 15px;
+}
+
+.services__title,
+.service__text {
+  color: white;
 }

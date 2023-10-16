@@ -22,6 +22,47 @@ section {
   padding: 0 125px 150px 125px;
 }
 
+.logo__link {
+  display: inline-block;
+  margin-right: 538.46px;
+  padding-top: 32.82px;
+}
+
+.logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav-container {
+  margin: 0 auto;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-top: 33px;
+  margin-right: 60px;
+  height: 25px;
+  color: #121212;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link_active {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
 h1 {
   margin-bottom: 30px;
   font-size: 60px;
@@ -144,43 +185,23 @@ h3 {
   color: white;
 }
 
-.logo__link {
-  display: inline-block;
-  margin-right: 538.46px;
-  padding-top: 32.82px;
+.apartment {
+  position: relative;
+  max-width: 1400px;
+  height: 717px;
+  background-image: url(../resources/Services/apartment.jpg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: 50%;
 }
 
-.logo {
-  display: block;
-  width: 126.89px;
-  height: 21.42px;
-}
-
-.nav-container {
-  margin: 0 auto;
-}
-
-.nav {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.nav__link {
-  display: inline-block;
-  margin-top: 33px;
-  margin-right: 60px;
-  height: 25px;
-  color: #121212;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.nav__link_active {
-  opacity: 0.5;
-  text-decoration: underline;
-}
-
-.nav__link:last-child {
-  margin-right: 0;
+.apartment-text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  height: 82px;
+  color: white;
+  font-size: 30px;
+  line-height: 40.98px;
 }

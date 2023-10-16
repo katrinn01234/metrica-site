@@ -7,6 +7,10 @@ p {
   letter-spacing: -0.03em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
@@ -21,10 +25,7 @@ section {
 h1 {
   margin-bottom: 30px;
   font-size: 60px;
-  line-height: 60px;
   width: 956px;
-  height: 120px;
-  text-align: left;
 }
 
 h2 {
@@ -141,4 +142,45 @@ h3 {
 .services__title,
 .service__text {
   color: white;
+}
+
+.logo__link {
+  display: inline-block;
+  margin-right: 538.46px;
+  padding-top: 32.82px;
+}
+
+.logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
+}
+
+.nav-container {
+  margin: 0 auto;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-top: 33px;
+  margin-right: 60px;
+  height: 25px;
+  color: #121212;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link_active {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
 }

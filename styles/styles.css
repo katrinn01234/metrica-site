@@ -191,7 +191,7 @@ h3 {
   height: 717px;
   background-image: url(../resources/Services/apartment.jpg);
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: 50%;
 }
 
@@ -204,4 +204,22 @@ h3 {
   color: white;
   font-size: 30px;
   line-height: 40.98px;
+}
+
+.contacts {
+  padding-top: 186px;
+  position: relative;
+}
+
+.contacts::before {
+  position: absolute;
+  top: 150px;
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../resources/phone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }

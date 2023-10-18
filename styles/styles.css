@@ -223,3 +223,20 @@ h3 {
   background-repeat: no-repeat;
   background-position: 50%;
 }
+
+.tel {
+  margin-top: 32px;
+  font-size: 60px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.mailto {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  color: #121212;
+  font-size: 60px;
+  line-height: 60px;
+  opacity: 0.5;
+}

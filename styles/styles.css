@@ -240,3 +240,33 @@ h3 {
   line-height: 60px;
   opacity: 0.5;
 }
+
+.section-black-footer {
+  padding-top: 60px;
+  height: 229px;
+  background-color: #121212;
+}
+
+.nav-footer {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.nav-footer__link {
+  display: inline-block;
+  margin-right: 60px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.nav-footer__link:last-child {
+  margin-right: 0;
+}
+.project-name {
+  margin-top: 87px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}

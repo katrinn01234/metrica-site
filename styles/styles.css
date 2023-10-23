@@ -18,14 +18,20 @@ body {
   color: #121212;
 }
 
+header {
+  padding-right: 124.65px;
+  padding-left: 124px;
+}
+
 section {
   padding: 0 125px 150px 125px;
 }
 
 .logo__link {
   display: inline-block;
-  margin-right: 538.46px;
-  padding-top: 32.82px;
+  margin-right: 550.46px;
+  margin-top: 32.82px;
+  margin-bottom: 73.76px;
 }
 
 .logo {
@@ -34,11 +40,7 @@ section {
   height: 21.42px;
 }
 
-.nav-container {
-  margin: 0 auto;
-}
-
-.nav {
+nav {
   display: inline-block;
   vertical-align: top;
 }
@@ -46,7 +48,7 @@ section {
 .nav__link {
   display: inline-block;
   margin-top: 33px;
-  margin-right: 60px;
+  margin-right: 57px;
   height: 25px;
   color: #121212;
   font-size: 18px;
@@ -54,9 +56,9 @@ section {
   text-decoration: none;
 }
 
-.nav__link_active {
+.nav__link:hover {
   opacity: 0.5;
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .nav__link:last-child {

@@ -19,50 +19,37 @@ body {
 }
 
 header {
-  padding-right: 124.65px;
-  padding-left: 124px;
+  padding: 33px 124.65px 70px 124px;
 }
 
 section {
   padding: 0 125px 150px 125px;
 }
 
-.logo__link {
-  display: inline-block;
-  margin-right: 550.46px;
-  margin-top: 32.82px;
-  margin-bottom: 73.76px;
-}
-
 .logo {
-  display: block;
+  display: inline-block;
   width: 126.89px;
   height: 21.42px;
 }
 
 nav {
+  float: right;
   display: inline-block;
-  vertical-align: top;
 }
 
 .nav__link {
   display: inline-block;
-  margin-top: 33px;
-  margin-right: 57px;
-  height: 25px;
+  margin-left: 60px;
+  line-height: 25px;
   color: #121212;
   font-size: 18px;
-  text-transform: uppercase;
+  text-align: left;
   text-decoration: none;
 }
 
 .nav__link:hover {
   opacity: 0.5;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.nav__link:last-child {
-  margin-right: 0;
 }
 
 h1 {

@@ -157,6 +157,11 @@ h3 {
   background-color: black;
 }
 
+.section-black h2,
+.section-black h3 {
+  color: white;
+}
+
 .service {
   margin-top: 60px;
 }
@@ -167,11 +172,6 @@ h3 {
 
 .service__image {
   margin-bottom: 15px;
-}
-
-.services__title,
-.service__text {
-  color: white;
 }
 
 .apartment {
@@ -222,12 +222,16 @@ h3 {
 
 .mailto {
   position: relative;
+  width: 412px;
+  height: 72px;
   display: block;
   margin-top: 30px;
   color: #121212;
   font-size: 60px;
   line-height: 60px;
   opacity: 0.5;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 .section-black-footer {

@@ -24,6 +24,7 @@ header {
 
 section {
   padding: 0 125px 150px 125px;
+  width: 1400px;
 }
 
 .logo {
@@ -73,7 +74,7 @@ h3 {
 
 .container {
   margin: 0 auto;
-  width: 1400px;
+
   background: #ffffff;
 }
 
@@ -174,17 +175,22 @@ h3 {
   margin-bottom: 15px;
 }
 
-.apartment {
+.FullWidth {
   position: relative;
-  max-width: 1400px;
+  width: 100%;
   height: 717px;
-  background-image: url(../resources/Services/apartment.jpg);
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 1%,
+      rgba(0, 0, 0, 0.4) 83%
+    ),
+    url(../resources/Services/apartment.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
 
-.apartment-text {
+.FullWidth__text {
   position: absolute;
   left: 125px;
   bottom: 60px;
